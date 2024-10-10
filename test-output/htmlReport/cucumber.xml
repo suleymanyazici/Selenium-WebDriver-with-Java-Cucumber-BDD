@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="38.574" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Ets login page" name="TC-01-Ets sitesine giris" time="15.616">
+<system-out><![CDATA[
+Given Ets sitesine gidilir..................................................passed
+When Giris butonuna basilir.................................................passed
+And E-posta girilir.........................................................passed
+And Sifre girilir...........................................................passed
+When Giris yap butonuna tiklanir............................................passed
+Then Sayfaya gidilemedigi gorulur...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ets login page" name="TC-02-Ets sitesine kayıt olma" time="22.804">
+<system-out><![CDATA[
+Given Ets sitesine gidilir..................................................passed
+When Giris butonuna basilir.................................................passed
+When Uye ol butonuna tiklanir...............................................passed
+And Isim girilir............................................................passed
+And Soyisim girilir.........................................................passed
+And Uyelik sebebiyle e-posta girilir........................................passed
+And Tel No girilir..........................................................passed
+And Alan Kodu degistirilir..................................................passed
+And Uyelik sebebiyle sifre girilir..........................................passed
+And Sifre tekrarı girilir...................................................passed
+And Checkbox lar tiklanir...................................................passed
+When Uye olmak icin ileri butonuna basilir..................................passed
+Then Sayfaya gidilemedigi gorulur...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
